@@ -1,0 +1,23 @@
+{
+  "name": "ce-client",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "date-utils": "^1.2.21",
+    "debug": "~2.6.9",
+    "dialogflow": "^0.7.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "knex": "^0.16.5",
+    "morgan": "~1.9.0",
+    "pg": "^7.10.0",
+    "request": "^2.88.0"
+  }
+}

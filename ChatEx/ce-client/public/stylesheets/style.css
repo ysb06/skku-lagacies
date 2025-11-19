@@ -1,0 +1,90 @@
+body {
+  background-color: whitesmoke;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+input {
+  background-color: beige;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+}
+
+/* Contents */
+
+#chat-log {
+  height: 600px;
+  overflow-y: auto;
+  background-color: white;
+  padding: 25px;
+}
+
+.agent-response {
+  background-color: powderblue;
+  margin: 15px;
+  padding: 15px 25px;
+  border-radius: 3px;
+
+  float: left;
+  clear: both;
+}
+
+.client-request {
+  background-color: #efefef;
+  margin: 15px;
+  padding: 15px 25px;
+  border-radius: 3px;
+  
+  float: right;
+  clear: both;
+}
+
+/* Input 창 */
+
+#chat-input {
+  overflow-y: auto;
+  background-color: ivory;
+  margin-top: 5px;
+  padding: 7px 5px;
+}
+
+#chat-input button {  
+  margin: 0px;
+  padding: 0px;
+}
+
+#chat-input input {
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+#talk-input {
+  width: calc(100% - 120px);
+  height: 50px;
+}
+
+#talk-submit {
+  width: 75px;
+  height: 50px;
+  float: right;
+}
+
+#talk-input:active, #talk-input:focus {
+  outline: none;
+  background-color: white;
+}
+
+/* 
+추후 페이지 설계를 다시 할 것 
+상당히 더러운 페이지가 된 듯
+*/
+  

@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset="UTF-8")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type='text/javascript', src='/javascripts/messenger.js')
+
+  body
+    h1 Dialogflow #{title}
+    p Welcome to #{title}
+    #chat-log
+    #chat-input
+      input#talk-input(type="text", name="queryText", onkeydown="checkPressedEnter()")
+      button#talk-submit(onclick="chatRequest()") Send
+    //아래는 테스트 코드
+    script appendResponse('안녕하세요! 무엇을 도와드릴까요?')
